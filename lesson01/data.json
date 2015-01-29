@@ -1,0 +1,18 @@
+[
+	{
+	"phoneId": "1",
+    "name": "Nexus S",
+	"image": "images/1417573177469.jpg",
+    "snippet": "Fast just got faster with Nexus.",
+    "age": 21
+},{"phoneId": "2",
+    "name": "Motoral XOOM",
+	"image": "images/1417573177469.jpg",
+    "snippet": "The Next ,next gerenation tablet",
+    "age": 22
+},{"phoneId": "3",
+    "name": "Motoral XOOM type",
+	"image": "images/1417573177469.jpg",
+    "snippet": "The Next ,next tablet",
+    "age": 23
+}]

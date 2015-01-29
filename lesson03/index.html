@@ -1,0 +1,26 @@
+<!doctype html>
+<html ng-app='test'>
+  <head>
+    <script src="js/angular.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <div ng-controller="MyCtrl">
+      Hello {{name}}!
+      <button ng-click="action()">
+		  {{name}}
+      </button>
+    </div>
+    <div ng-init="list = ['hello','world']">
+    	
+    	<input type="text" ng-model="list" list>
+    	<input type="text" ng-model="list" list>
+		{{list}}
+   		<ol>
+        <li ng-repeat="item in list">
+          {{item}}
+        </li>
+      </ol>
+    </div>
+  </body>
+</html>
